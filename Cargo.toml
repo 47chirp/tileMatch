@@ -1,0 +1,13 @@
+[package]
+name = "guessWhere"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rand = "0.8.4"
+raylib = "3.7.0"
+piston_window = "0.131.0"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
